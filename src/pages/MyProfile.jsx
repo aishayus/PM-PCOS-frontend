@@ -1,11 +1,10 @@
 import React, { useContext, useEffect, useState } from 'react'
 import { CgProfile } from "react-icons/cg";
 import { FaHistory } from "react-icons/fa";
-import { MdLanguage } from "react-icons/md";
 import { IoIosLogOut } from "react-icons/io";
 import { useNavigate } from 'react-router-dom';
 import { AppContext } from '../context/AppContext';
-import Default from '../assets/default.jpeg'
+import Default from '../assets/Default.jpeg'
 import { RiDeleteBin5Fill } from "react-icons/ri";
 import { MdOutlineSystemUpdateAlt } from "react-icons/md";
 import axios from 'axios'
