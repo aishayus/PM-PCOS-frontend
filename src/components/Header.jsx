@@ -4,7 +4,7 @@ import { CgMenuRight, CgProfile } from "react-icons/cg";
 import NavBeforeLogin from './NavBeforeLogin';
 import Navbar from './Navbar';
 import { AppContext } from '../context/AppContext';
-import defaultImg from '../assets/default.jpeg'
+import defaultImg from '../assets/Default.jpeg'
 
 
 const Header = ({containerStyles, setShowLogin}) => {
