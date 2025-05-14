@@ -1,7 +1,13 @@
 {
-    "rewrites": [
-    {
+    "headers": [
+        {
         "source": "/(.*)",
-        "destination": "/public/index.html"}
-]
+        "headers": [
+            {
+            "key": "Cross-Origin-Opener-Policy",
+            "value": "same-origin"
+            }
+        ]
+        }
+    ]
 }
